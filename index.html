@@ -1,0 +1,260 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta name="description" content="">
+    <meta name="author" content="Mark Otto, Jacob Thornton, and Bootstrap contributors">
+    <meta name="generator" content="Hugo 0.84.0">
+    <title>Evaluacion</title>
+
+    <link rel="canonical" href="https://getbootstrap.com/docs/5.0/examples/carousel/">
+
+    
+
+    <!-- Bootstrap core CSS -->
+<!-- Bootstrap CSS -->
+<link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM" crossorigin="anonymous"></script>
+
+    <style>
+      .bd-placeholder-img {
+        font-size: 1.125rem;
+        text-anchor: middle;
+        -webkit-user-select: none;
+        -moz-user-select: none;
+        user-select: none;
+      }
+
+      @media (min-width: 768px) {
+        .bd-placeholder-img-lg {
+          font-size: 3.5rem;
+        }
+      }
+      
+      .imagen-redondeada {
+            border-radius: 50%; /* Esto hace que la imagen sea circular */
+            width: 250px; /* Ajusta el tamaño según tus necesidades */
+            height: 250px; /* Asegúrate de que el ancho y el alto sean iguales para una imagen circular */
+      }
+    </style>
+
+
+
+    <!-- Custom styles for this template -->
+    <link href="carousel.css" rel="stylesheet">
+  </head>
+  
+  <body>
+
+
+
+<header>
+  <nav class="navbar navbar-expand-md navbar-dark fixed-top bg-dark">
+    <div class="container-fluid">
+      <a class="navbar-brand" href="#">Lesther</a>
+      <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse" id="navbarCollapse">
+        <ul class="navbar-nav me-auto mb-2 mb-md-0">
+          <li class="nav-item">
+            <a class="nav-link active" aria-current="page" href="#">Pagina Principal</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link" href="https://www.instagram.com/">Redes Sociales</a>
+          </li>
+          <li class="nav-item">
+            <a class="nav-link disabled" href="#" tabindex="-1" aria-disabled="true">Inhabilitado Temporalmente</a>
+          </li>
+        </ul>
+        <form class="d-flex" action="https://www.google.com/search" method="get">
+          <input class="form-control me-2" type="text" placeholder="Buscar Aquí" aria-label="Buscar" name="q">
+          <button class="btn btn-outline-success" type="submit">Buscar en Google</button>
+        </form>
+
+        </form>
+      </div>
+      <select class="form-select" aria-label="Default select example" style="width: 200px;">
+        <option selected>Abré esté Menú Para más Info</option>
+        <option value="1">Blog</option>
+        <option value="2">Chat</option>
+        <option value="3">Formulario</option>
+      </select>
+    </div>
+  </nav>
+</header>
+
+<main>
+
+
+
+    <div id="myCarousel" class="carousel slide" data-bs-ride="carousel">
+    <div class="carousel-indicators">
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="1" aria-label="Slide 2"></button>
+      <button type="button" data-bs-target="#myCarousel" data-bs-slide-to="2" aria-label="Slide 3"></button>
+    </div>
+    <div class="carousel-inner">
+      <div class="carousel-item active">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-start">
+            <h1>Pagina de Prueba</h1>
+            <p>Bienvenido a mi pagina de Prueba hecha por Lesther C:</p>
+            <p><a class="btn btn-lg btn-primary" href="http://127.0.0.1:3000/pagina1.html">Registrate Hoy!</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption">
+            <h1>Videos Publicos</h1>
+            <p>Videos de Youtube</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.youtube.com/">Ver más</a></p>
+          </div>
+        </div>
+      </div>
+      <div class="carousel-item">
+        <svg class="bd-placeholder-img" width="100%" height="100%" xmlns="http://www.w3.org/2000/svg" aria-hidden="true" preserveAspectRatio="xMidYMid slice" focusable="false"><rect width="100%" height="100%" fill="#777"/></svg>
+
+        <div class="container">
+          <div class="carousel-caption text-end">
+            <h1>Ejemplos</h1>
+            <p>Todas estás paginas son ejemplos</p>
+            <p><a class="btn btn-lg btn-primary" href="https://www.google.cl/search?q=Paisajes&sca_esv=4c75ca2344971d57&hl=es-419&source=hp&biw=1912&bih=954&ei=VAH4Z-3iBdqU5OUPn9KqsAk&iflsig=ACkRmUkAAAAAZ_gPZGIzaM64MYBenYjDLWYBGC1vu-3m&ved=0ahUKEwjt3JWSgM6MAxVaCrkGHR-pCpYQ4dUDCA0&uact=5&oq=Paisajes&gs_lp=EgNpbWciCFBhaXNhamVzMgsQABiABBixAxiDATILEAAYgAQYsQMYgwEyCBAAGIAEGLEDMg4QABiABBixAxiDARiKBTIIEAAYgAQYsQMyBRAAGIAEMgUQABiABDIFEAAYgAQyBRAAGIAEMgUQABiABEjHDVCZBViQDXAAeACQAQCYASugAb0CqgEBOLgBA8gBAPgBAYoCC2d3cy13aXotaW1nmAIIoALWAqgCAJgDApIHATigB64osgcBOLgH1gI&sclient=img&udm=2">Galeria</a></p>
+          </div>
+        </div>
+      </div>
+    </div>
+    <button class="carousel-control-prev" type="button" data-bs-target="#myCarousel" data-bs-slide="prev">
+      <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Atras</span>
+    </button>
+    <button class="carousel-control-next" type="button" data-bs-target="#myCarousel" data-bs-slide="next">
+      <span class="carousel-control-next-icon" aria-hidden="true"></span>
+      <span class="visually-hidden">Adelante</span>
+    </button>
+  </div>
+
+  <div class="alert alert-primary d-flex align-items-center" role="alert">
+    <svg xmlns="http://www.w3.org/2000/svg" width="24" height="24" fill="currentColor" class="bi bi-exclamation-triangle-fill flex-shrink-0 me-2" viewBox="0 0 16 16" role="img" aria-label="Warning:">
+      <path d="M8.982 1.566a1.13 1.13 0 0 0-1.96 0L.165 13.233c-.457.778.091 1.767.98 1.767h13.713c.889 0 1.438-.99.98-1.767L8.982 1.566zM8 5c.535 0 .954.462.9.995l-.35 3.507a.552.552 0 0 1-1.1 0L7.1 5.995A.905.905 0 0 1 8 5zm.002 6a1 1 0 1 1 0 2 1 1 0 0 1 0-2z"/>
+    </svg>
+    <div>
+      Está es una Pagina de Prueba
+    </div>
+  </div>
+  <!-- Marketing messaging and featurettes
+  ================================================== -->
+  <!-- Wrap the rest of the page in another container to center all the content. -->
+
+  <div class="container marketing">
+
+    <!-- Three columns of text below the carousel -->
+    <div class="row">
+      <div class="col-lg-4">
+        <img src="/imagenes/Paisaje1.jpg" alt="Descripción de la imagen" width="400" class="imagen-redondeada">
+        <h2>Paisaje 1</h2>
+        <p>Paisaje 1 - Representativo de Ejemplo</p>
+        <p><a class="btn btn-secondary" href="#">Ver Detalles &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="/imagenes/Paisaje2.jpg" alt="Descripción de la imagen" width="400" class="imagen-redondeada">
+        <h2>Paisaje 2</h2>
+        <p>Paisaje 2 - Representativo de Ejemplo</p>
+        <p><a class="btn btn-secondary" href="#">Ver Detalles &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+      <div class="col-lg-4">
+        <img src="/imagenes/Paisaje3.jpg" alt="Descripción de la imagen" width="400" class="imagen-redondeada">
+
+        <h2>Paisaje 3</h2>
+        <p>Paisaje 3 - Representativo de Ejemplo</p>
+        <p><a class="btn btn-secondary" href="#">Ver Detalles &raquo;</a></p>
+      </div><!-- /.col-lg-4 -->
+    </div><!-- /.row -->
+
+
+    <!-- START THE FEATURETTES -->
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Irlanda <span class="text-muted">Te podría interesar</span></h2>
+        <p class="lead">Some great placeholder content for the first featurette here. Imagine some exciting prose here.</p>
+      </div>
+      <div class="alert alert-warning alert-dismissible fade show" role="alert">
+        <strong>Queda poco Stock!</strong> Apresurate en reservar.
+        <button type="button" class="btn-close" data-bs-dismiss="alert" aria-label="Close"></button>
+      </div>
+      <div class="col-md-5">
+        <img src="/imagenes/Irlanda.jpg" alt="Descripción" width="400">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7 order-md-2">
+        <h2 class="featurette-heading">Noruega <span class="text-muted">Planes Economicos</span></h2>
+        <p class="lead">Another featurette? Of course. More placeholder content here to give you an idea of how this layout would work with some actual real-world content in place.</p>
+      </div>
+      <div class="alert alert-danger" role="alert">
+        Actualmente Agotado... <a href="#" class="alert-link">Lo sentimos</a>. Podrias ver otras ofertas!
+      </div>
+      <div class="col-md-5 order-md-1">
+        <img src="/imagenes/Noruega.jpg" alt="Descripción" width="400">
+
+      </div>
+    </div>
+
+    <hr class="featurette-divider">
+
+    <div class="row featurette">
+      <div class="col-md-7">
+        <h2 class="featurette-heading">Isla de Pascua <span class="text-muted">Ofertás</span></h2>
+        <p class="lead">1</p>
+      </div>
+      <div class="col-md-5">
+        <img src="/imagenes/Pascua.jpg" alt="Descripción" width="400">
+      </div>
+    </div>
+
+    <div class="alert alert-success" role="alert">
+      <h4 class="alert-heading">Actualmente estamos mejorando!</h4>
+      <p>Ten paciencia, está pagina está apunto de emprender, se vienen cositas xD</p>
+      <hr>
+      <p class="mb-0">Todo lo que necesitas está aquí!</p>
+    </div>
+
+    <div class="d-flex align-items-center">
+      <strong>Pronto más contenido, estó No Cargará jaja...</strong>
+      <div class="spinner-border ms-auto" role="status" aria-hidden="true"></div>
+    </div>
+
+    
+
+    <!-- /END THE FEATURETTES -->
+
+  </div><!-- /.container -->
+
+
+  <!-- FOOTER -->
+  <footer class="container">
+    <p class="float-end"><a href="#">Devuelta</a></p>
+    <p>&copy; 2017–2021 Lesther, Inc. &middot; <a href="#">Privacidad</a> &middot; <a href="#">Terminos</a></p>
+  </footer>
+</main>
+
+
+    <script src="../assets/dist/js/bootstrap.bundle.min.js"></script>
+
+      
+  </body>
+</html>

@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Tarea 3 - Uso de Git y GitHub</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet">
+    <style>
+        .content-section {
+            margin-top: 20px;
+        }
+        .section-title {
+            font-size: 2rem;
+            font-weight: bold;
+            color: #007bff;
+        }
+    </style>
+</head>
+<body>
+
+    <header class="bg-dark text-white p-3 text-center">
+        <h1>Tarea 3 - Uso de Git y GitHub</h1>
+    </header>
+
+    <div class="container content-section">
+        <div class="section-title">¿Qué es Git?</div>
+        <p>
+            Git es un sistema de control de versiones distribuido que nos permite gestionar de manera eficiente los cambios en nuestros archivos, especialmente en proyectos de desarrollo de software. 
+            Es utilizado para realizar un seguimiento de los cambios, colaborar con otros y mantener un historial detallado de los archivos.
+        </p>
+
+        <div class="section-title">¿Qué es GitHub?</div>
+        <p>
+            GitHub es una plataforma en línea para alojar proyectos que utilizan Git como sistema de control de versiones. 
+            Permite colaborar con otros desarrolladores, compartir código, realizar seguimientos de errores y mucho más.
+        </p>
+
+        <div class="section-title">Pasos para usar Git y GitHub:</div>
+        <ol>
+            <li><strong>Instalar Git</strong>: Si aún no tienes Git en tu máquina, descárgalo desde <a href="https://git-scm.com/downloads" target="_blank">aquí</a>.</li>
+            <li><strong>Configurar Git</strong>: Configura tu nombre y correo electrónico con los comandos:
+                <pre>git config --global user.name "Tu Nombre"</pre>
+                <pre>git config --global user.email "tu-email@dominio.com"</pre>
+            </li>
+            <li><strong>Crear un repositorio en GitHub</strong>: Ve a <a href="https://github.com" target="_blank">GitHub</a> y crea un nuevo repositorio.</li>
+            <li><strong>Clonar el repositorio a tu máquina local</strong>: Usa el comando:
+                <pre>git clone https://github.com/tu-usuario/tu-repositorio.git</pre>
+            </li>
+            <li><strong>Hacer cambios y hacer commit</strong>: Realiza cambios en tu proyecto y usa los siguientes comandos:
+                <pre>git add .</pre>
+                <pre>git commit -m "Descripción de tus cambios"</pre>
+            </li>
+            <li><strong>Subir los cambios a GitHub</strong>: Usa el comando:
+                <pre>git push origin main</pre>
+            </li>
+            <li><strong>Verificar los cambios en GitHub</strong>: Abre tu repositorio en GitHub para ver los archivos actualizados.</li>
+        </ol>
+
+        <div class="section-title">Comandos Básicos de Git:</div>
+        <ul>
+            <li><strong>git init</strong>: Inicializa un repositorio local.</li>
+            <li><strong>git clone [URL]</strong>: Clona un repositorio remoto.</li>
+            <li><strong>git status</strong>: Muestra el estado de los archivos modificados.</li>
+            <li><strong>git add .</strong>: Agrega todos los archivos modificados al área de preparación.</li>
+            <li><strong>git commit -m "mensaje"</strong>: Realiza un commit con un mensaje explicativo.</li>
+            <li><strong>git push origin main</strong>: Sube los cambios al repositorio remoto.</li>
+            <li><strong>git pull origin main</strong>: Obtiene los cambios más recientes desde GitHub.</li>
+            <li><strong>git log</strong>: Muestra el historial de commits.</li>
+        </ul>
+    </div>
+
+    <footer class="bg-dark text-white text-center p-3">
+        <p>&copy; 2025 Tarea 3 - Uso de Git y GitHub | <a href="https://github.com/tu-usuario/tu-repositorio" target="_blank">Visita mi repositorio</a></p>
+    </footer>
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"></script>
+</body>
+</html>
